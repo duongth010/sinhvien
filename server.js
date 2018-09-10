@@ -26,6 +26,14 @@ app.get('/api/getSinhViens',function (req,res) {
     }
 
     res.send(JSON.stringify(sinhvien));
+});
+
+
+
+app.get('/api/hello',function (req,res) {
+
+
+    res.send('xin chao cac ban');
 })
 
 
